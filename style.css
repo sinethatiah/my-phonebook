@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-color: rgba(17, 241, 241, 0.1);
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 2fr 4fr 1fr;
+
+
+}
+
+#navbar {
+    color:aqua blue;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;}
+
+    #page-title {
+        background-color: rgba(211, 211, 211, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #motivation{
+        justify-content: center;
+        align-items: center;
+        padding-left: 30%;
+        padding-bottom: 100px;
+    }
+
+    #footer {
+        padding-top: 20px;
+        margin: auto;
+        background-color: rgba(211, 211, 211, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #copyright {
+        justify-content: center;
+    }
+
+ .mainpage {
+    font-family: Arial, sans-serif; 
+    background-image:url(images/finalone.jpg);
+    background-size: cover;
+ }
+ 
+.category-card {
+    display: flex;
+    gap: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.confact-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.contact-form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.servivebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10%;
+}
+
+
+ .aboutthepeople-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10%;
+padding-left: 3%; }
+.aboutthepeople-2 {
+    display: block ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10%
+ }
